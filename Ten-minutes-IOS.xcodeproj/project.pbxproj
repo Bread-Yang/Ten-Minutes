@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5615CCEF19DEC81C00C1F092 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5615CCEE19DEC81C00C1F092 /* messages.plist */; };
+		5615CCF419DECB8500C1F092 /* ChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5615CCF319DECB8500C1F092 /* ChatTableViewCell.m */; };
+		5615CCF919DF8F5900C1F092 /* ChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5615CCF819DF8F5900C1F092 /* ChatMessage.m */; };
+		5615CCFD19DF912800C1F092 /* ChatTableViewCellFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5615CCFC19DF912800C1F092 /* ChatTableViewCellFrame.m */; };
 		561EE48619DD1BF900897B89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 561EE48519DD1BF900897B89 /* main.m */; };
 		561EE48919DD1BF900897B89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 561EE48819DD1BF900897B89 /* AppDelegate.m */; };
-		561EE48C19DD1BF900897B89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561EE48B19DD1BF900897B89 /* ViewController.m */; };
 		561EE48F19DD1BF900897B89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561EE48D19DD1BF900897B89 /* Main.storyboard */; };
 		561EE49119DD1BF900897B89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561EE49019DD1BF900897B89 /* Images.xcassets */; };
 		561EE49419DD1BF900897B89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561EE49219DD1BF900897B89 /* LaunchScreen.xib */; };
 		561EE4A019DD1BF900897B89 /* Ten_minutes_IOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 561EE49F19DD1BF900897B89 /* Ten_minutes_IOSTests.m */; };
+		561EE4BB19DDD82000897B89 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561EE4BA19DDD82000897B89 /* MainViewController.m */; };
+		561EE4BE19DDDF4500897B89 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561EE4BD19DDDF4500897B89 /* ChatViewController.m */; };
+		561EE4C119DDDF6300897B89 /* UnReadMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561EE4C019DDDF6300897B89 /* UnReadMessageViewController.m */; };
+		561EE4C419DDDFC900897B89 /* GridMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561EE4C319DDDFC900897B89 /* GridMapViewController.m */; };
+		561EE4C719DDDFDA00897B89 /* AddActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561EE4C619DDDFDA00897B89 /* AddActivityViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +35,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5615CCEE19DEC81C00C1F092 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		5615CCF219DECB8500C1F092 /* ChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewCell.h; sourceTree = "<group>"; };
+		5615CCF319DECB8500C1F092 /* ChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewCell.m; sourceTree = "<group>"; };
+		5615CCF719DF8F5900C1F092 /* ChatMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatMessage.h; sourceTree = "<group>"; };
+		5615CCF819DF8F5900C1F092 /* ChatMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatMessage.m; sourceTree = "<group>"; };
+		5615CCFB19DF912800C1F092 /* ChatTableViewCellFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewCellFrame.h; sourceTree = "<group>"; };
+		5615CCFC19DF912800C1F092 /* ChatTableViewCellFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewCellFrame.m; sourceTree = "<group>"; };
+		5615CCFE19DF934E00C1F092 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		561EE48019DD1BF900897B89 /* Ten-minutes-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ten-minutes-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		561EE48419DD1BF900897B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		561EE48519DD1BF900897B89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		561EE48719DD1BF900897B89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		561EE48819DD1BF900897B89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		561EE48A19DD1BF900897B89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		561EE48B19DD1BF900897B89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		561EE48E19DD1BF900897B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		561EE49019DD1BF900897B89 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		561EE49319DD1BF900897B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		561EE49919DD1BF900897B89 /* Ten-minutes-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ten-minutes-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		561EE49E19DD1BF900897B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		561EE49F19DD1BF900897B89 /* Ten_minutes_IOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ten_minutes_IOSTests.m; sourceTree = "<group>"; };
+		561EE4B919DDD82000897B89 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		561EE4BA19DDD82000897B89 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		561EE4BC19DDDF4500897B89 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		561EE4BD19DDDF4500897B89 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		561EE4BF19DDDF6300897B89 /* UnReadMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnReadMessageViewController.h; sourceTree = "<group>"; };
+		561EE4C019DDDF6300897B89 /* UnReadMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnReadMessageViewController.m; sourceTree = "<group>"; };
+		561EE4C219DDDFC900897B89 /* GridMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridMapViewController.h; sourceTree = "<group>"; };
+		561EE4C319DDDFC900897B89 /* GridMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridMapViewController.m; sourceTree = "<group>"; };
+		561EE4C519DDDFDA00897B89 /* AddActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddActivityViewController.h; sourceTree = "<group>"; };
+		561EE4C619DDDFDA00897B89 /* AddActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddActivityViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +84,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5615CCF119DECB6200C1F092 /* 聊天界面 */ = {
+			isa = PBXGroup;
+			children = (
+				5615CCF219DECB8500C1F092 /* ChatTableViewCell.h */,
+				5615CCF319DECB8500C1F092 /* ChatTableViewCell.m */,
+				5615CCFB19DF912800C1F092 /* ChatTableViewCellFrame.h */,
+				5615CCFC19DF912800C1F092 /* ChatTableViewCellFrame.m */,
+			);
+			name = "聊天界面";
+			sourceTree = "<group>";
+		};
+		5615CCF519DF8F0D00C1F092 /* 数据层 */ = {
+			isa = PBXGroup;
+			children = (
+				5615CCF619DF8F1900C1F092 /* 聊天界面 */,
+			);
+			name = "数据层";
+			sourceTree = "<group>";
+		};
+		5615CCF619DF8F1900C1F092 /* 聊天界面 */ = {
+			isa = PBXGroup;
+			children = (
+				5615CCF719DF8F5900C1F092 /* ChatMessage.h */,
+				5615CCF819DF8F5900C1F092 /* ChatMessage.m */,
+			);
+			name = "聊天界面";
+			sourceTree = "<group>";
+		};
+		5615CD0019DF93A200C1F092 /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				5615CCFE19DF934E00C1F092 /* Foundation.framework */,
+			);
+			name = FrameWorks;
+			sourceTree = "<group>";
+		};
 		561EE47719DD1BF900897B89 = {
 			isa = PBXGroup;
 			children = (
 				561EE48219DD1BF900897B89 /* Ten-minutes-IOS */,
 				561EE49C19DD1BF900897B89 /* Ten-minutes-IOSTests */,
 				561EE48119DD1BF900897B89 /* Products */,
+				5615CD0019DF93A200C1F092 /* FrameWorks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,12 +142,11 @@
 		561EE48219DD1BF900897B89 /* Ten-minutes-IOS */ = {
 			isa = PBXGroup;
 			children = (
-				561EE48719DD1BF900897B89 /* AppDelegate.h */,
-				561EE48819DD1BF900897B89 /* AppDelegate.m */,
-				561EE48A19DD1BF900897B89 /* ViewController.h */,
-				561EE48B19DD1BF900897B89 /* ViewController.m */,
-				561EE48D19DD1BF900897B89 /* Main.storyboard */,
-				561EE49019DD1BF900897B89 /* Images.xcassets */,
+				5615CCF519DF8F0D00C1F092 /* 数据层 */,
+				561EE4AA19DD5EFF00897B89 /* 应用入口 */,
+				561EE4AB19DD5F3C00897B89 /* 控制层 */,
+				561EE4AC19DD5F6800897B89 /* 视图层 */,
+				561EE4AE19DD5FBD00897B89 /* 资源 */,
 				561EE49219DD1BF900897B89 /* LaunchScreen.xib */,
 				561EE48319DD1BF900897B89 /* Supporting Files */,
 			);
@@ -96,6 +156,7 @@
 		561EE48319DD1BF900897B89 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5615CCEE19DEC81C00C1F092 /* messages.plist */,
 				561EE48419DD1BF900897B89 /* Info.plist */,
 				561EE48519DD1BF900897B89 /* main.m */,
 			);
@@ -117,6 +178,97 @@
 				561EE49E19DD1BF900897B89 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		561EE4AA19DD5EFF00897B89 /* 应用入口 */ = {
+			isa = PBXGroup;
+			children = (
+				561EE48719DD1BF900897B89 /* AppDelegate.h */,
+				561EE48819DD1BF900897B89 /* AppDelegate.m */,
+			);
+			name = "应用入口";
+			sourceTree = "<group>";
+		};
+		561EE4AB19DD5F3C00897B89 /* 控制层 */ = {
+			isa = PBXGroup;
+			children = (
+				561EE4B219DD752E00897B89 /* 主界面 */,
+				561EE4B619DD75A500897B89 /* 添加活动界面 */,
+				561EE4B319DD753600897B89 /* 方格图界面 */,
+				561EE4B419DD756000897B89 /* 未读消息界面 */,
+				561EE4B519DD759000897B89 /* 聊天界面 */,
+			);
+			name = "控制层";
+			sourceTree = "<group>";
+		};
+		561EE4AC19DD5F6800897B89 /* 视图层 */ = {
+			isa = PBXGroup;
+			children = (
+				5615CCF119DECB6200C1F092 /* 聊天界面 */,
+				561EE4AD19DD5F8500897B89 /* 故事版 */,
+			);
+			name = "视图层";
+			sourceTree = "<group>";
+		};
+		561EE4AD19DD5F8500897B89 /* 故事版 */ = {
+			isa = PBXGroup;
+			children = (
+				561EE48D19DD1BF900897B89 /* Main.storyboard */,
+			);
+			name = "故事版";
+			sourceTree = "<group>";
+		};
+		561EE4AE19DD5FBD00897B89 /* 资源 */ = {
+			isa = PBXGroup;
+			children = (
+				561EE49019DD1BF900897B89 /* Images.xcassets */,
+			);
+			name = "资源";
+			sourceTree = "<group>";
+		};
+		561EE4B219DD752E00897B89 /* 主界面 */ = {
+			isa = PBXGroup;
+			children = (
+				561EE4B919DDD82000897B89 /* MainViewController.h */,
+				561EE4BA19DDD82000897B89 /* MainViewController.m */,
+			);
+			name = "主界面";
+			sourceTree = "<group>";
+		};
+		561EE4B319DD753600897B89 /* 方格图界面 */ = {
+			isa = PBXGroup;
+			children = (
+				561EE4C219DDDFC900897B89 /* GridMapViewController.h */,
+				561EE4C319DDDFC900897B89 /* GridMapViewController.m */,
+			);
+			name = "方格图界面";
+			sourceTree = "<group>";
+		};
+		561EE4B419DD756000897B89 /* 未读消息界面 */ = {
+			isa = PBXGroup;
+			children = (
+				561EE4BF19DDDF6300897B89 /* UnReadMessageViewController.h */,
+				561EE4C019DDDF6300897B89 /* UnReadMessageViewController.m */,
+			);
+			name = "未读消息界面";
+			sourceTree = "<group>";
+		};
+		561EE4B519DD759000897B89 /* 聊天界面 */ = {
+			isa = PBXGroup;
+			children = (
+				561EE4BC19DDDF4500897B89 /* ChatViewController.h */,
+				561EE4BD19DDDF4500897B89 /* ChatViewController.m */,
+			);
+			name = "聊天界面";
+			sourceTree = "<group>";
+		};
+		561EE4B619DD75A500897B89 /* 添加活动界面 */ = {
+			isa = PBXGroup;
+			children = (
+				561EE4C519DDDFDA00897B89 /* AddActivityViewController.h */,
+				561EE4C619DDDFDA00897B89 /* AddActivityViewController.m */,
+			);
+			name = "添加活动界面";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +320,7 @@
 				TargetAttributes = {
 					561EE47F19DD1BF900897B89 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 9YE68YMS9G;
 					};
 					561EE49819DD1BF900897B89 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -199,6 +352,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5615CCEF19DEC81C00C1F092 /* messages.plist in Resources */,
 				561EE48F19DD1BF900897B89 /* Main.storyboard in Resources */,
 				561EE49419DD1BF900897B89 /* LaunchScreen.xib in Resources */,
 				561EE49119DD1BF900897B89 /* Images.xcassets in Resources */,
@@ -219,9 +373,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				561EE48C19DD1BF900897B89 /* ViewController.m in Sources */,
+				561EE4C419DDDFC900897B89 /* GridMapViewController.m in Sources */,
+				5615CCF419DECB8500C1F092 /* ChatTableViewCell.m in Sources */,
 				561EE48919DD1BF900897B89 /* AppDelegate.m in Sources */,
+				561EE4C719DDDFDA00897B89 /* AddActivityViewController.m in Sources */,
+				561EE4BE19DDDF4500897B89 /* ChatViewController.m in Sources */,
+				561EE4C119DDDF6300897B89 /* UnReadMessageViewController.m in Sources */,
 				561EE48619DD1BF900897B89 /* main.m in Sources */,
+				5615CCFD19DF912800C1F092 /* ChatTableViewCellFrame.m in Sources */,
+				561EE4BB19DDD82000897B89 /* MainViewController.m in Sources */,
+				5615CCF919DF8F5900C1F092 /* ChatMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +506,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Ten-minutes-IOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -355,9 +518,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Ten-minutes-IOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -414,6 +579,7 @@
 				561EE4A519DD1BF900897B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		561EE4A619DD1BF900897B89 /* Build configuration list for PBXNativeTarget "Ten-minutes-IOSTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +588,7 @@
 				561EE4A819DD1BF900897B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
